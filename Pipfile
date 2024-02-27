@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+numpy = "~=1.26.4"
+pandas = "~=2.2.1"
+matplotlib = "~=3.8.3"
+lxml = "*"
+seaborn = "*"
+statsmodels = "*"
+scipy = "*"
+patsy = "*"
+scikit-learn = "*"
+beautifulsoup4 = "*"
+notebook = "~=7.1.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
